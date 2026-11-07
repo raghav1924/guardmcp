@@ -1,0 +1,37 @@
+{
+  "name": "guardmcp",
+  "version": "1.0.0",
+  "description": "Developer-first Security Linter, Risk Auditor & Visual Inspector for Model Context Protocol (MCP) servers and configurations.",
+  "main": "dist/index.js",
+  "bin": {
+    "guardmcp": "./dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "start": "node dist/bin.js",
+    "test": "node --test dist/tests/**/*.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "security",
+    "linter",
+    "audit",
+    "ai-agents",
+    "claude",
+    "cursor",
+    "devsecops",
+    "developer-tools"
+  ],
+  "author": "Jatin Sharma <raghavjatin245@gmail.com> (https://jatinsh.netlify.app/)",
+  "homepage": "https://jatinsh.netlify.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raghav1924/guardmcp.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
