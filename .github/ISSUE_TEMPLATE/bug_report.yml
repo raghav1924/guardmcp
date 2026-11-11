@@ -1,0 +1,21 @@
+name: Bug Report
+description: Create a report to help us improve GuardMCP
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: config-sample
+    attributes:
+      label: MCP Configuration Sample
+      description: Sample MCP config (redacting any private credentials)
+    validations:
+      required: false
