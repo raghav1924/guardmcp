@@ -90,3 +90,11 @@ test('AuditEngine detects prompt injection / override in tool description', () =
   assert.ok(sec05, 'Should flag prompt override in description');
   assert.strictEqual(sec05?.severity, 'CRITICAL');
 });
+
+test('AuditEngine handles empty configuration gracefully with 100% score', () => {
+  const configs: McpConfigFile[] = [];
+  const report = AuditEngine.audit(configs);
+  assert.strictEqual(report.totalServers, 0);
+  assert.strictEqual(report.findings.length, 0);
+  assert.strictEqual(report.score, 100);
+});
