@@ -14,3 +14,4 @@ Brief summary of the security rule or feature introduced in this PR.
 - [ ] My code adheres to TypeScript strict mode
 - [ ] Unit tests pass cleanly (`npm test`)
 - [ ] Zero external runtime dependencies maintained
+

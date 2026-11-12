@@ -12,3 +12,4 @@ We as members, contributors, and leaders pledge to make participation in the Gua
 * Reporting vulnerabilities and code issues responsibly
 
 Maintainer: **[Jatin Sharma](https://jatinsh.netlify.app/)** • [raghavjatin245@gmail.com](mailto:raghavjatin245@gmail.com)
+
