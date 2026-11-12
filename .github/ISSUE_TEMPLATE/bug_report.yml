@@ -19,3 +19,4 @@ body:
       description: Sample MCP config (redacting any private credentials)
     validations:
       required: false
+

@@ -15,3 +15,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Standalone single-file HTML security audit report exporter (`--export audit.html`).
 - Automated CI/CD security gate flags (`--fail-on high`, `--min-score 80`).
 - Zero-dependency architecture utilizing Node.js standard libraries.
+

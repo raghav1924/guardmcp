@@ -18,3 +18,4 @@ Instead, please send an email to **[raghavjatin245@gmail.com](mailto:raghavjatin
 You will receive an acknowledgment within 24 hours and timely updates through resolution and disclosure.
 
 Author: **[Jatin Sharma](https://jatinsh.netlify.app/)**
+
