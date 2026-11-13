@@ -58,3 +58,4 @@ Integrate GuardMCP into your repository workflows:
 ```bash
 npx guardmcp audit --min-score 85
 ```
+

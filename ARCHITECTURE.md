@@ -50,3 +50,4 @@ As AI clients (Claude Desktop, Cursor, Copilot) integrate Model Context Protocol
 GuardMCP calculates a weighted health score:
 $$\text{Score} = \max\left(0, 100 - \sum w_i \cdot \text{severity}_i\right)$$
 Where CRITICAL findings deduct 35 points, HIGH findings deduct 20 points, and MEDIUM findings deduct 10 points.
+
