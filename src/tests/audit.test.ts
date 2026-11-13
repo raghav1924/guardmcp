@@ -98,3 +98,23 @@ test('AuditEngine handles empty configuration gracefully with 100% score', () =>
   assert.strictEqual(report.findings.length, 0);
   assert.strictEqual(report.score, 100);
 });
+
+test('AuditEngine identifies broad filesystem server mounts', () => {
+  const configs: McpConfigFile[] = [
+    {
+      sourcePath: '/test/mcp.json',
+      clientType: 'project',
+      mcpServers: {
+        'fs-server': {
+          command: 'npx',
+          args: ['-y', '@modelcontextprotocol/server-filesystem', '/'],
+        },
+      },
+    },
+  ];
+  const report = AuditEngine.audit(configs);
+  const sec03 = report.findings.find(f => f.id === 'SEC03');
+  assert.ok(sec03, 'Should flag filesystem server with SEC03');
+  assert.strictEqual(sec03?.severity, 'HIGH');
+});
+
