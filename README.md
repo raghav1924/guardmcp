@@ -39,6 +39,7 @@ However, standard MCP configurations introduce serious security vulnerabilities:
 - 📄 **Single-File HTML Export:** Generates self-contained security audit reports suitable for sharing with security teams or clients.
 - 🚀 **CI/CD Quality Gate:** Native flags (`--min-score 80`, `--fail-on critical`) to block PRs when insecure MCP tools are added.
 - ⚡ **Zero External Dependencies:** Built with pure TypeScript and Node standard libraries for instant execution and zero supply-chain risk.
+- 📖 **Architecture & Hardening Guides:** See [ARCHITECTURE.md](ARCHITECTURE.md) and [docs/MCP_SECURITY_GUIDE.md](docs/MCP_SECURITY_GUIDE.md) for in-depth threat models and remediation best practices.
 
 ---
 
