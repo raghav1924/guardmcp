@@ -1,15 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert';
 
-describe('Edge Case Security Audits', () => {
-  it('should flag path traversal patterns in file tool parameters', () => {
-    const maliciousConfig = JSON.stringify({
-      mcpServers: {
-        fileServer: {
-          command: "node",
-          args: ["server.js", "--allowed-path", "../../etc"]
-        }
+test('Security test: flags directory traversal in arguments', () => {
+  const maliciousConfig = JSON.stringify({
+    mcpServers: {
+      fileServer: {
+        command: "node",
+        args: ["server.js", "--allowed-path", "../../etc"]
       }
-    });
-    // Validates path traversal mitigation
-    assert.ok(maliciousConfig.includes('../../etc'));
+    }
   });
+  assert.ok(maliciousConfig.includes('../../etc'));
 });

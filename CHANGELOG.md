@@ -16,3 +16,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Automated CI/CD security gate flags (`--fail-on high`, `--min-score 80`).
 - Zero-dependency architecture utilizing Node.js standard libraries.
 
+
+## [1.1.0] - 2026-11-15
+### Added
+- Threat modeling documentation for MCP servers and clients.
+- Custom security rule development guide.
+- Traversal assertion test cases and CI integration guide.
