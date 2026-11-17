@@ -1,4 +1,4 @@
-# Security Policy
+# Security Policy for guardmcp
 
 ## Supported Versions
 
@@ -6,16 +6,16 @@
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
 
-## Reporting a Vulnerability
+## Reporting Vulnerabilities
 
-Security is paramount to the GuardMCP project. If you discover a security vulnerability or bypass heuristic, please do NOT file a public issue.
+If you discover a security vulnerability in **guardmcp**, please do not open a public issue. Instead, report it directly to the maintainer:
 
-Instead, please send an email to **[raghavjatin245@gmail.com](mailto:raghavjatin245@gmail.com)** with:
-1. Description of the vulnerability.
-2. Steps or sample MCP configuration file to reproduce.
-3. Potential impact and severity assessment.
+- **Email:** [raghavjatin245@gmail.com](mailto:raghavjatin245@gmail.com)
+- **Maintainer:** Jatin Sharma ([https://jatinsh.netlify.app/](https://jatinsh.netlify.app/))
 
-You will receive an acknowledgment within 24 hours and timely updates through resolution and disclosure.
+Please provide:
+1. Detailed description of the vulnerability.
+2. Reproduction steps or proof of concept.
+3. Potential impact and proposed mitigations.
 
-Author: **[Jatin Sharma](https://jatinsh.netlify.app/)**
-
+We will acknowledge receipt within 24 hours and provide an estimated disclosure and patch timeline.
