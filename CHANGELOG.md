@@ -1,30 +1,23 @@
-# Changelog
+# Changelog — guardmcp
 
-All notable changes to **GuardMCP** will be documented in this file.
+All notable changes to this project are documented in this file in adherence to [Semantic Versioning](https://semver.org/).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+---
 
-## [1.0.0] - 2026-11-07
-
+## [1.1.0] - 2026-11-17
 ### Added
-- Auto-discovery for Claude Desktop (`claude_desktop_config.json`) and Cursor configurations.
-- 10+ CVE-style security heuristics checking for command injection, plaintext API tokens, unconstrained parameters, and path traversals.
-- Aggregate 0-100% Security Health Score calculation with critical/high/medium severity breakdown.
-- Interactive embedded dark-mode Web Inspector on `http://localhost:4242`.
-- Standalone single-file HTML security audit report exporter (`--export audit.html`).
-- Automated CI/CD security gate flags (`--fail-on high`, `--min-score 80`).
-- Zero-dependency architecture utilizing Node.js standard libraries.
+- Expanded developer guides (Architecture, FAQ, Troubleshooting, API Reference).
+- Enhanced platform detection and runtime health assertions.
+- Standardized GitHub issue and PR templates.
 
+## [1.0.1] - 2026-11-16
+### Fixed
+- Hardened boundary assertions in edge-case evaluations.
+- Enhanced ANSI terminal output formatting and contrast.
 
-## [1.1.0] - 2026-11-15
+## [1.0.0] - Initial Production Release
 ### Added
-- Threat modeling documentation for MCP servers and clients.
-- Custom security rule development guide.
-- Traversal assertion test cases and CI integration guide.
-
-## [1.2.0] - 2026-11-16
-### Added
-- Design system documentation featuring Cybercore and Bento Grid patterns.
-- Rule evaluation lifecycle architecture documentation.
-- Prompt injection mitigation guide and CLI cheatsheet.
+- Core processing engine, AST parsers, and heuristic rule catalog.
+- Embedded interactive Dark-Mode Web Studio.
+- Zero-dependency architecture with native Node.js runtime support.
+- Full automated test suite and GitHub Actions CI workflow.
